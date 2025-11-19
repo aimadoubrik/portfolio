@@ -85,7 +85,7 @@ Use \`useMemo\` only when the calculation is expensive.
 ];
 
 export const SKILLS = [
-  'TypeScript', 'React', 'Node.js', 'Next.js', 
-  'Tailwind CSS', 'Gemini API', 'PostgreSQL', 'Docker', 
-  'AWS', 'GraphQL', 'Framer Motion', 'Git'
+  'React.js', 'TypeScript', 'Laravel', 'PHP',
+  'Node.js', 'Next.js', 'Tailwind CSS', 'MySQL',
+  'PostgreSQL', 'Docker', 'AWS', 'Git'
 ];

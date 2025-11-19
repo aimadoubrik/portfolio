@@ -39,8 +39,7 @@ export const About: React.FC = () => {
                 a <span className="text-accent-light dark:text-accent-dark font-medium">start-up</span>, and a huge corporation.
               </p>
               <p>
-                My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
-                I also recently started exploring <span className="font-bold text-slate-900 dark:text-white">Generative AI</span> capabilities with the Gemini API to build smarter interfaces.
+                My main focus these days is crafting cohesive products with React.js on the front-end and Laravel APIs on the back-end—shipping experiences that feel fast, resilient, and intuitive.
               </p>
             </div>
           </motion.div>

@@ -51,12 +51,12 @@ export const Hero: React.FC = () => {
           </motion.div>
           
           <motion.h3 variants={item} className="text-2xl md:text-4xl font-semibold text-slate-600 dark:text-slate-400 mb-8">
-            Full Stack Developer
+            Full Stack Developer (React.js & Laravel)
           </motion.h3>
           
           <motion.p variants={item} className="max-w-2xl mx-auto text-base md:text-lg text-slate-600 dark:text-slate-300 mb-10 leading-relaxed">
-            I build pixel-perfect, accessible, and performant web experiences. 
-            Specializing in different technologies.
+            I build pixel-perfect, accessible, and performant web experiences powered by modern React.js front-ends and robust Laravel back-ends.
+            Specializing in end-to-end product delivery.
           </motion.p>
 
           <motion.div variants={item} className="flex flex-col sm:flex-row items-center justify-center gap-4">
