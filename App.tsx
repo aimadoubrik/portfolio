@@ -6,7 +6,6 @@ import { Projects } from './components/Projects';
 import { Blog } from './components/Blog';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { ChatWidget } from './components/ChatWidget';
 
 const App: React.FC = () => {
   // Theme State
@@ -45,7 +44,6 @@ const App: React.FC = () => {
         <Contact />
       </main>
       <Footer />
-      <ChatWidget />
     </div>
   );
 };

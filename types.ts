@@ -23,12 +23,3 @@ export interface NavItem {
   href: string;
 }
 
-export enum MessageRole {
-  USER = 'user',
-  MODEL = 'model'
-}
-
-export interface ChatMessage {
-  role: MessageRole;
-  text: string;
-}
