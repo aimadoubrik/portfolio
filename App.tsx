@@ -12,9 +12,10 @@ const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     if (typeof window !== 'undefined') {
       const savedTheme = localStorage.getItem('theme');
-      return savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      if (savedTheme === 'dark') return true;
+      if (savedTheme === 'light') return false;
     }
-    return true;
+    return false;
   });
 
   // Toggle Theme
