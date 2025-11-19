@@ -45,18 +45,18 @@ export const Hero: React.FC = () => {
           <motion.div variants={item} className="relative inline-block mb-6">
             <h1 className="text-6xl md:text-8xl font-extrabold tracking-tight relative z-10">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-slate-700 to-slate-900 dark:from-white dark:via-slate-300 dark:to-white animate-gradient">
-                Alex Dev
+                Aimad Oubrik
               </span>
             </h1>
           </motion.div>
           
           <motion.h3 variants={item} className="text-2xl md:text-4xl font-semibold text-slate-600 dark:text-slate-400 mb-8">
-            Full Stack React Engineer
+            Full Stack Developer
           </motion.h3>
           
           <motion.p variants={item} className="max-w-2xl mx-auto text-base md:text-lg text-slate-600 dark:text-slate-300 mb-10 leading-relaxed">
             I build pixel-perfect, accessible, and performant web experiences. 
-            Specializing in the React ecosystem, Node.js, and Generative AI integrations.
+            Specializing in different technologies.
           </motion.p>
 
           <motion.div variants={item} className="flex flex-col sm:flex-row items-center justify-center gap-4">
